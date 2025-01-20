@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- //font -->
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">   
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/@fontsource/montserrat@4.5.1/css/montserrat.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Kalnia+Glaze:wght@100..700&display=swap" rel="stylesheet">
+
+
+    <title>RECEIPE</title>
+
+</head>
+<body>
+   
+    <center> <br><br>
+
+        <div class="container">
+            <div class="overlay">
+                <h1>FIND RECEIPE</h1>
+                <!-- <input type="text" id="name"><br> -->
+                <div class="col-3">
+                    <input class="effect-8" type="text" id="name" placeholder="Enter receipe name">
+                    <span class="focus-border">
+                        <i></i>
+                    </span>
+                </div> <br>
+    
+                <button id="submit">FIND</button> <br><br><br><br>
+    
+            </div>
+        </div>
+
+        <div id="main" class="card"></div>
+
+    </center>
+
+    <div class="pan" style="display: none;">
+
+        <h1  class="cook">Cooking in progress</h1>
+        <div  id="timer"><p>00:0 <span id="span">5</span></p></div>
+        <div  id="cooking">
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div id="area">
+                <div id="sides">
+                    <div id="pan"></div>
+                    <div id="handle"></div>
+                </div>
+                <div id="pancake">
+                    <div id="pastry"></div>
+                </div>
+            </div>
+        </div>
+    
+    </div>
+   
+</body>
+
+</html>
+
+
+<script src="receipe.js"></script>
